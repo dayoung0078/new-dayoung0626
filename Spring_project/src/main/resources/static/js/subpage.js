@@ -27,18 +27,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 views: 394041,
                 vlue:"DaYoung"
             },
-            {imageUrl: "/img/362217a5a1e2a040687b12b2d212de0f.jpg", title: "다영님 페이지 2",date: "2025.10.10", views: 424344,vlue:"DaYoung"},
-            {imageUrl: "path_to_foreign3.jpg", title: "다영님 페이지 3", date: "2025.11.11", views: 454647,vlue:"DaYoung"},
-            {imageUrl: "path_to_foreign4.jpg", title: "다영님 페이지 4", date: "2025.12.12", views: 484950,vlue:"DaYoung"}
+            {imageUrl: "/img/362217a5a1e2a040687b12b2d212de0f.jpg", title: "다영님 페이지 2",date: "2025.10.10", views: 424344,value:"DaYoung"},
+            {imageUrl: "path_to_foreign3.jpg", title: "다영님 페이지 3", date: "2025.11.11", views: 454647,value:"DaYoung"},
+            {imageUrl: "path_to_foreign4.jpg", title: "다영님 페이지 4", date: "2025.12.12", views: 484950,value:"DaYoung"}
         ],
         HyoJoo: [
-            {imageUrl: "path_to_korean1.jpg", title: "효주님 페이지 1", date: "2026.01.01", views: 515253,vlue:"HyoJoo"},
-            {imageUrl: "path_to_korean2.jpg", title: "효주님 페이지 2", date: "2026.02.02", views: 545556,vlue:"HyoJoo"},
-            {imageUrl: "path_to_korean3.jpg", title: "효주님 페이지 3", date: "2026.03.03", views: 575859,vlue:"HyoJoo"},
-            {imageUrl: "path_to_korean4.jpg", title: "효주님 페이지 4", date: "2026.04.04", views: 606162,vlue:"HyoJoo"}
+            {imageUrl: "path_to_korean1.jpg", title: "효주님 페이지 1", date: "2026.01.01", views: 515253,value:"HyoJoo"},
+            {imageUrl: "path_to_korean2.jpg", title: "효주님 페이지 2", date: "2026.02.02", views: 545556,value:"HyoJoo"},
+            {imageUrl: "path_to_korean3.jpg", title: "효주님 페이지 3", date: "2026.03.03", views: 575859,value:"HyoJoo"},
+            {imageUrl: "path_to_korean4.jpg", title: "효주님 페이지 4", date: "2026.04.04", views: 606162,value:"HyoJoo"}
         ],
         JaeHee: [
-            {imageUrl: "path_to_science1.jpg", title: "재희님 페이지 1", date: "2026.05.05", views: 636465,vlue:"JaeHee"},
+            {imageUrl: "path_to_science1.jpg", title: "재희님 페이지 1", date: "2026.05.05", views: 636465,value:"JaeHee"},
             {imageUrl: "path_to_science2.jpg", title: "재희님 페이지 2", date: "2026.06.06", views: 666768,vlue:"JaeHee"},
             {imageUrl: "path_to_science3.jpg", title: "재희님 페이지 3", date: "2026.07.07", views: 697071,vlue:"JaeHee"},
             {imageUrl: "path_to_science4.jpg", title: "재희님 페이지 4", date: "2026.08.08", views: 727374,vlue:"JaeHee"}
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     window.location.href = '/Elemental';
                     break;
                 case 'DaYoung':
-                    window.location.href = '/daYoungPage';
+                    window.location.href = '/MaindaYoung';
                     break;
                 case 'HyoJoo':
                     window.location.href = '/hyoJooPage';

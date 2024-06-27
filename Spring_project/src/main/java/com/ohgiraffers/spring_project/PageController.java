@@ -23,8 +23,8 @@ public class PageController {
     @GetMapping("/minJooPage")
     public String minJooPageRedirect(){return "page/MinJoo/MinJoo";}
 
-    @GetMapping("/MainDayoung")
+    @GetMapping("/MaindaYoung")
     public String MainDayoungRedirect(){
-        return "page/Dayoung/Dayoung";
+        return "page/Dayoung/MainDayoung";
     }
 }
